@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="reviews.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2 id="movie-title">Movie Reviews</h2>
+        <button onclick="goBack()">Back</button>
+    </header>
+    <main>
+        <div class="reviews">
+            <h3>Reviews</h3>
+            <div id="reviews-container"></div>
+            <input type="text" id="review-input" placeholder="Write a review...">
+            <button onclick="addReview()">Add Review</button>
+        </div>
+    </main>
+</body>
+</html>
